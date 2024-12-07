@@ -169,3 +169,45 @@
     opacity: 90%;
     width: 450px;
   }
+
+/* HOME PAGE */
+.home-banner {
+  height: 600px;
+  /* display: flex; */
+  width: 100%;
+  background-color: #212121;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 30px 315px;
+}
+
+.home-text {
+  color: white;
+  opacity: 90%;
+  font-size: 68px;
+  font-weight: bold;
+}
+
+.home-animation-text {
+  display: inline-block;
+}
+
+.home-text2 {
+  color: white;
+  opacity: 90%;
+  font-size: 68px;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+      typing 2s,
+      cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% { border-color: transparent; }
+}
+
+@keyframes typing {
+  from { width: 0; }
+}
