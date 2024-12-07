@@ -1,38 +1,50 @@
-import styles from "@/app/components/header/page.module.css"
-import Link from "next/link"
+import Link from "next/link";
+import Logo from "@/app/images/omerworks_logo.svg";
 
 export default function Header() {
-    return (
-      <header>
-        <div className="nav">
-          <ul className="nav-child">
-              <Link href="/" className="nav-elements">
-              <li>Home</li>
-              </Link>
+  return (
+    <header className="header">
+      <nav className="nav">
+        <ul className="nav-child">
+          
+          {/* Logo */}
+          <li className="logo">
+            <Link href="/">
+              <Logo className="logo-svg" />
+            </Link>
+          </li>
 
-              <Link href="/" className="nav-elements">
-              <li>Services</li>
-              </Link>
+          {/* Navigation Links */}
+          <li className="nav-elements">
+            <Link href="/">Home</Link>
+          </li>
 
-              <Link href="/" className="nav-elements">
-              <li>Case Study</li>
-              </Link>
+          <li className="nav-elements">
+            <Link href="/">Services</Link>
+          </li>
 
-              <Link href="/" className="nav-elements">
-              <li>Portfolio</li>
-              </Link>
+          <li className="nav-elements">
+            <Link href="/">Case Study</Link>
+          </li>
 
-              <Link href="/" className="nav-elements">
-              <li>Blog</li>
-              </Link>
+          <li className="nav-elements">
+            <Link href="/">Portfolio</Link>
+          </li>
 
-              <Link href="/" className="nav-elements">
+          <li className="nav-elements">
+            <Link href="/">Blog</Link>
+          </li>
+
+          <li className="nav-elements">
+            <Link href="/">
               <button className="nav-btn">
                 <p className="nav-btn-text">Inquire</p>
               </button>
-              </Link>
-          </ul>
-        </div>
-      </header>
-    )
+            </Link>
+          </li>
+
+        </ul>
+      </nav>
+    </header>
+  );
 }

@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
 import Header from "@/app/components/header/page";
+import Footer from "./components/footer/page";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,6 +35,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />  
       </body>
     </html>
   );
