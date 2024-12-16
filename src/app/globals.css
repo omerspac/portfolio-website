@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 * {
-    font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* LOGO WORK */
@@ -179,12 +183,12 @@
 
 /* HOME PAGE */
 .home-banner {
-  height: 817px;
+  height: 914px;
   width: 100%;
   background-color: #212121;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   padding: 30px 75px;
-  padding-top: 200px;
+  padding-top: 275px; /* Adjust this as well */
   box-sizing: border-box;
 }
 
@@ -192,7 +196,7 @@
   width: 600px;
   overflow: hidden;
   position: absolute;
-  top: 440px;  /* Adjust this as needed */
+  top: 515px;  /* Adjust this as needed */
 }
 
 .inside-home-banner-text {
@@ -259,7 +263,7 @@
   padding: 0px;
   position: absolute;
   right: 3.6%;
-  top: 435px;
+  top: 495px;
   transform: translateY(-50%);
   /* transform: scale(0.3); */
   /* transform-origin: center; */
@@ -299,7 +303,7 @@
 
 /* SERVICES SECTION */
 .services-banner {
-  height: 731px;
+  height: 914px;
   width: 100%;
   background-color: #27272E;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -309,9 +313,19 @@
 }
 
 .services-text {
-  color: white;
+  color: #D3D3D4;
+  /* background-color: #212121; */
   opacity: 90%;
   font-size: 56px;
   text-align: center;
   /* font-weight: bold; */
+}
+
+.card {
+  width: 400px;
+  background-color: #212121;
+  height: 400px;
+  /* border-radius: 30px; */
+  margin-top: 30px;
+  opacity: 30%;
 }

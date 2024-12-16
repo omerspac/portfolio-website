@@ -1,12 +1,23 @@
+'use client'
+
 import Link from "next/link";
 import Logo from "@/app/images/omerworks_logo.svg";
+import { useState, useEffect } from 'react';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Header() {
+  // ScrollToTop function (same logic as in ScrollToTopButton)
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // This enables smooth scroll
+    });
+  };
+
   return (
     <header className="header">
       <nav className="nav">
         <ul className="nav-child">
-          
           {/* Logo */}
           <li className="logo">
             <Link href="/">
@@ -14,13 +25,26 @@ export default function Header() {
             </Link>
           </li>
 
-          {/* Navigation Links */}
+          {/* Home Button */}
           <li className="nav-elements">
-            <Link href="/">Home</Link>
+            <button 
+              onClick={scrollToTop} 
+              style={{
+                background: 'none',
+                border: 'none',
+                cursor: 'pointer',
+                padding: 0,
+                color: 'inherit',
+                fontSize: 'inherit',
+              }}
+            >
+              Home
+            </button>
           </li>
 
+          {/* Other Navigation Links */}
           <li className="nav-elements">
-            <Link href="/">Services</Link>
+            <Link href="#services-section">Services</Link>
           </li>
 
           <li className="nav-elements">
@@ -32,7 +56,7 @@ export default function Header() {
           </li>
 
           <li className="nav-elements">
-            <Link href="/">Blog</Link>
+            <Link href="/">FAQs</Link>
           </li>
 
           <li className="nav-elements">
@@ -42,7 +66,6 @@ export default function Header() {
               </button>
             </Link>
           </li>
-
         </ul>
       </nav>
     </header>
