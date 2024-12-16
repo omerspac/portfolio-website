@@ -303,7 +303,7 @@ html {
 
 /* SERVICES SECTION */
 .services-banner {
-  height: 914px;
+  height: 1314px;
   width: 100%;
   background-color: #27272E;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -314,8 +314,7 @@ html {
 
 .services-text {
   color: #D3D3D4;
-  /* background-color: #212121; */
-  opacity: 90%;
+  /* opacity: 90%; */
   font-size: 56px;
   text-align: center;
   /* font-weight: bold; */
