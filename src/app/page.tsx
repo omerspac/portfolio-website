@@ -34,25 +34,43 @@ export default function Home() {
       </div>
 
       <section id="services-section">
-      <div className="services-banner">
-        <p className="services-text">Our Services</p>
-        <p className="e text-center text-white text-lg opacity-70">"Explore our expert services designed to elevate your business with innovative solutions and unparalleled support"</p>
-        <div className="cards-group flex justify-between">
-          <div className="card rounded-tl-[40px]">
+        <div className="services-banner">
+
+          <p className="services-text">Our Services</p>
+          <p className="e text-center text-white text-lg opacity-70">"Explore our expert services designed to elevate your business with innovative solutions and unparalleled support"</p>
+          <div className="cards-group flex justify-between">
+            <div className="card rounded-tl-[40px]">
+            </div>
+            <div className="card">
+            </div>
+            <div className="card rounded-tr-[40px]">
+            </div>
           </div>
-          <div className="card">
+          <p className="services-text mt-[75px]">Customer Reviews</p>
+          <p className="e text-center text-white text-lg opacity-70">"Discover what our customers have to say about their experiences"</p>
+          
+          <div className="reviews-card-group flex justify-center">
+            <div className="review-card rounded-[40px] opacity-30 mt-[30px] w-[1310px] h-[350px] bg-[#212121]">
+              
+            </div>
           </div>
-          <div className="card rounded-tr-[40px]">
-          </div>
-        </div>
-      <p className="services-text mt-[75px]">Customer Reviews</p>
-      <p className="e text-center text-white text-lg opacity-70">"Discover what our customers have to say about their experiences"</p>
-      <div className="reviews-card-group flex justify-center">
-        <div className="review-card rounded-[40px] opacity-30 mt-[30px] w-[1310px] h-[350px] bg-[#212121]">
 
         </div>
-      </div>
-      </div>
+      </section>
+      <section id="case-study-section">
+        <div className="case-study-banner">
+
+        </div>
+      </section>
+      <section id="portfolio-section">
+        <div className="portfolio-banner">
+
+        </div>
+      </section>
+      <section id="faqs-section">
+        <div className="faqs-banner">
+
+        </div>
       </section>
       <p>ez</p><br /><br /><br /><br /><br /><br /><br />
       <ScrollToTopButton />

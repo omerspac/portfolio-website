@@ -2,31 +2,31 @@
 
 import Link from "next/link";
 import Logo from "@/app/images/omerworks_logo.svg";
+import styles from "@/app/components/header/page.module.css";
 import { useState, useEffect } from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Header() {
-  // ScrollToTop function (same logic as in ScrollToTopButton)
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth', // This enables smooth scroll
+      behavior: 'smooth',
     });
   };
 
   return (
-    <header className="header">
-      <nav className="nav">
-        <ul className="nav-child">
+    <header className={styles.header}>
+      <nav className={styles.nav}>
+        <ul className={styles['nav-child']}>
           {/* Logo */}
-          <li className="logo">
+          <li className={styles.logo}>
             <Link href="/">
-              <Logo className="logo-svg" />
+              <Logo className={styles['logo-svg']} />
             </Link>
           </li>
 
           {/* Home Button */}
-          <li className="nav-elements">
+          <li className={styles['nav-elements']}>
             <button 
               onClick={scrollToTop} 
               style={{
@@ -43,26 +43,26 @@ export default function Header() {
           </li>
 
           {/* Other Navigation Links */}
-          <li className="nav-elements">
+          <li className={styles['nav-elements']}>
             <Link href="#services-section">Services</Link>
           </li>
 
-          <li className="nav-elements">
-            <Link href="/">Case Study</Link>
+          <li className={styles['nav-elements']}>
+            <Link href="#case-study-section">Case Study</Link>
           </li>
 
-          <li className="nav-elements">
-            <Link href="/">Portfolio</Link>
+          <li className={styles['nav-elements']}>
+            <Link href="#portfolio-section">Portfolio</Link>
           </li>
 
-          <li className="nav-elements">
-            <Link href="/">FAQs</Link>
+          <li className={styles['nav-elements']}>
+            <Link href="#faqs-section">FAQs</Link>
           </li>
 
-          <li className="nav-elements">
+          <li className={styles['nav-elements']}>
             <Link href="/">
-              <button className="nav-btn">
-                <p className="nav-btn-text">Inquire</p>
+              <button className={styles['nav-btn']}>
+                <p className={styles['nav-btn-text']}>Inquire</p>
               </button>
             </Link>
           </li>
