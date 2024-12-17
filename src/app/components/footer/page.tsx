@@ -1,6 +1,11 @@
 import Link from 'next/link';
 import Logo from '@/app/images/omerworks_logo.svg';
-import css from '@/app/components/footer/page.module.css'; // Import the CSS module
+import css from '@/app/components/footer/page.module.css';
+import { FaInstagram } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
+import { FaBehanceSquare } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -15,17 +20,17 @@ export default function Footer() {
         <div className={css['footer-column']}>
           <h3>Services</h3>
           <ul>
-            <li><Link href="#">2D Graphics</Link></li>
-            <li><Link href="#">3D Graphics</Link></li>
-            <li><Link href="#">Web Development</Link></li>
-            <li><Link href="#">AI Chatbot</Link></li>
+            <li><Link href="#services-section">2D Graphics</Link></li>
+            <li><Link href="#services-section">3D Graphics</Link></li>
+            <li><Link href="#services-section">Web Development</Link></li>
+            <li><Link href="#services-section">AI Chatbot</Link></li>
           </ul>
         </div>
         <div className={css['footer-column']}>
           <h3>Resources</h3>
           <ul>
             <li><Link href="#">Blog</Link></li>
-            <li><Link href="#">Portfolio</Link></li>
+            <li><Link href="#portfolio-section">Portfolio</Link></li>
             <li><Link href="#">More Content</Link></li>
           </ul>
         </div>
@@ -41,12 +46,12 @@ export default function Footer() {
 
       <div className={css['footer-bottom']}>
         <section>
-          <div className={css['social-links']}>
-            <Link href="#">Facebook</Link>
-            <Link href="#">Instagram</Link>
-            <Link href="#">Twitter</Link>
-            <Link href="#">LinkedIn</Link>
-            <Link href="#">TikTok</Link>
+          <div className={css['social-links']} >
+            <Link href="#" className="w-[35px]"><FaFacebook size={20}/></Link>
+            <Link href="#" className="w-[35px]"><FaInstagram size={20}/></Link>
+            <Link href="#" className="w-[35px]"><BsTwitterX size={20}/></Link>
+            <Link href="#" className="w-[35px]"><FaLinkedin size={20}/></Link>
+            <Link href="https://www.behance.net/omerspac" target='_blank' className="w-[35px]"><FaBehanceSquare size={20}/></Link>
           </div>
         </section>
 

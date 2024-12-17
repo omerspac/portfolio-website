@@ -1,6 +1,9 @@
 'use client'
 import { useState, useEffect } from 'react';
-import '@fortawesome/fontawesome-free/css/all.min.css'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+// import { FaArrowUp } from 'react-icons/fa';
+// import { FaArrowTurnUp } from 'react-icons/fa6';
+import { IoIosArrowUp } from "react-icons/io";
 
 export default function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
@@ -49,10 +52,15 @@ export default function ScrollToTopButton() {
           boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
           zIndex: '1000',
           transition: 'transform 0.3s ease',
+          width: '50px',
+          height: '50px',
+          justifyContent: 'center',
+          alignItems: 'center',
         }}
         className="scroll-to-top-btn"
       >
         {/* <i className='bx bx-up-arrow-alt'></i> */}
+        <IoIosArrowUp size={30} className="-ml-[15px] -mt-[18px] color-[#212121]"/>
       </button>
     )
   );

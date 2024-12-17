@@ -3,6 +3,7 @@ import Link from "next/link";
 import ScrollToTopButton from "./components/ScrollToTop";
 import MainBannerText from "./components/MainBannerText";
 import HomePagePicture from "./images/omerworks-homepage-png.png";
+import FAQ from "./components/faq/page";
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 export default function Home() {
@@ -59,20 +60,23 @@ export default function Home() {
       </section>
       <section id="case-study-section">
         <div className="case-study-banner">
-
+          
         </div>
       </section>
       <section id="portfolio-section">
         <div className="portfolio-banner">
-
+          <p className="services-text">Portfolio</p>
+          <p className="e text-center text-white text-lg opacity-70">"Explore our portfolio to see a showcase of our high-quality work."</p>
         </div>
       </section>
       <section id="faqs-section">
         <div className="faqs-banner">
-
+          <p className="services-text">FAQ's</p>
+          <p className="e text-center text-white text-lg opacity-70">"Find answers to commonly asked questions about our services and products below."</p>
+          <FAQ />
         </div>
       </section>
-      <p>ez</p><br /><br /><br /><br /><br /><br /><br />
+      {/* <p>ez</p><br /><br /><br /><br /><br /><br /><br /> */}
       <ScrollToTopButton />
     </>
   );
