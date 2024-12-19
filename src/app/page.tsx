@@ -39,12 +39,20 @@ export default function Home() {
 
           <p className="services-text">Our Services</p>
           <p className="e text-center text-white text-lg opacity-70">"Explore our expert services designed to elevate your business with innovative solutions and unparalleled support"</p>
-          <div className="cards-group flex justify-between">
-            <div className="card rounded-tl-[40px]">
+          <div className="cards-group flex justify-center gap-[40px]">
+            <div className="card rounded-[40px]">
             </div>
-            <div className="card">
+            <div className="card rounded-[40px]">
             </div>
-            <div className="card rounded-tr-[40px]">
+            <div className="card rounded-[40px]">
+            </div>
+          </div>
+          <div className="cards-group flex justify-center gap-[40px]">
+            <div className="card rounded-[40px]">
+            </div>
+            <div className="card rounded-[40px]">
+            </div>
+            <div className="card rounded-[40px]">
             </div>
           </div>
           <p className="services-text mt-[75px]">Customer Reviews</p>
@@ -58,9 +66,11 @@ export default function Home() {
 
         </div>
       </section>
-      <section id="case-study-section">
-        <div className="case-study-banner">
-          
+      <section id="blog-section">
+        <div className="blog-banner">
+          <p className="services-text">Blog</p>
+          <p className="e text-center text-white text-lg opacity-70">"Insights and Updates: Explore our blog for the latest in Brand Identity and 3D Animation."</p>
+          <p className="coming-soon text-white text-[56px] text-center font-bold opacity-70">[COMING SOON]</p>
         </div>
       </section>
       <section id="portfolio-section">

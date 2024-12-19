@@ -47,11 +47,11 @@ export default function Footer() {
       <div className={css['footer-bottom']}>
         <section>
           <div className={css['social-links']} >
-            <Link href="#" className="w-[35px]"><FaFacebook size={20}/></Link>
-            <Link href="#" className="w-[35px]"><FaInstagram size={20}/></Link>
-            <Link href="#" className="w-[35px]"><BsTwitterX size={20}/></Link>
-            <Link href="#" className="w-[35px]"><FaLinkedin size={20}/></Link>
-            <Link href="https://www.behance.net/omerspac" target='_blank' className="w-[35px]"><FaBehanceSquare size={20}/></Link>
+            <Link href="#" className="w-[35px] hover:opacity-70"><FaFacebook size={20}/></Link>
+            <Link href="#" className="w-[35px] hover:opacity-70"><FaInstagram size={20}/></Link>
+            <Link href="#" className="w-[35px] hover:opacity-70"><BsTwitterX size={20}/></Link>
+            <Link href="#" className="w-[35px] hover:opacity-70"><FaLinkedin size={20}/></Link>
+            <Link href="https://www.behance.net/omerspac" target='_blank' className="w-[35px] hover:opacity-70"><FaBehanceSquare size={20}/></Link>
           </div>
         </section>
 

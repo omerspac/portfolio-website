@@ -198,7 +198,7 @@ html {
 
 /* SERVICES SECTION */
 .services-banner {
-  height: 1370px;
+  height: 1790px;
   width: 100%;
   background-color: #27272E;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -225,9 +225,9 @@ html {
 }
 /* END */
 
-/* CASE STUDY SECTION */
-.case-study-banner {
-  height: 14px;
+/* BLOG SECTION */
+.blog-banner {
+  height: 424px;
   width: 100%;
   background-color: #212121;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);

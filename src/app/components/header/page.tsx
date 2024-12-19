@@ -48,7 +48,7 @@ export default function Header() {
           </li>
 
           <li className={styles['nav-elements']}>
-            <Link href="#case-study-section">Case Study</Link>
+            <Link href="#blog-section">Blog</Link>
           </li>
 
           <li className={styles['nav-elements']}>
