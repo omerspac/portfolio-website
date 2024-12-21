@@ -16,9 +16,11 @@ export default function Home() {
         <MainBannerText />
         <div className="inside-home-banner">
           <p className="inside-home-banner-text">I offer professional graphic design and web development services that blend creativity with functionality, delivering visually stunning designs and seamless user experiences.</p>
+          <Link href="#inquire-section">
           <button className="inside-home-banner-btn">
               <p className="inside-home-banner-btn-text">Get In Touch</p>
           </button>
+          </Link>
         </div>
 
         <div className="homepage-svg-container">
