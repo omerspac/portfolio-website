@@ -29,7 +29,7 @@ export default function Footer() {
         <div className={css['footer-column']}>
           <h3>Resources</h3>
           <ul>
-            <li><Link href="#">Blog</Link></li>
+            <li><Link href="#blog-section">Blog</Link></li>
             <li><Link href="#portfolio-section">Portfolio</Link></li>
             <li><Link href="#">More Content</Link></li>
           </ul>
