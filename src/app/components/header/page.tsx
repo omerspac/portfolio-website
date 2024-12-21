@@ -60,7 +60,7 @@ export default function Header() {
           </li>
 
           <li className={styles['nav-elements']}>
-            <Link href="/">
+            <Link href="#inquire-section">
               <button className={styles['nav-btn']}>
                 <p className={styles['nav-btn-text']}>Inquire</p>
               </button>

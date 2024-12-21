@@ -260,4 +260,16 @@ html {
   box-sizing: border-box;
 }
 /* END */
+
+/* INQUIRE SECTION */
+.inquire-banner {
+  height: 1080px;
+  width: 100%;
+  background-color: #27272E;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 30px 75px;
+  padding: 110px 75px; /* For Adjusting */
+  box-sizing: border-box;
+}
+/* END */
 /* END */

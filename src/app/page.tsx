@@ -4,6 +4,7 @@ import ScrollToTopButton from "./components/ScrollToTop";
 import MainBannerText from "./components/MainBannerText";
 import HomePagePicture from "./images/omerworks-homepage-png.png";
 import FAQ from "./components/faq/page";
+import InquireForm from "./components/inquire-form/page";
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 export default function Home() {
@@ -84,6 +85,15 @@ export default function Home() {
           <p className="services-text">FAQ's</p>
           <p className="e text-center text-white text-lg opacity-70">"Find answers to commonly asked questions about our services and products below."</p>
           <FAQ />
+        </div>
+      </section>
+      <section id="inquire-section">
+        <div className="inquire-banner">
+          <p className="services-text">Let's Talk Together!</p>
+          <p className="e text-center text-white text-lg opacity-70">"Have questions or want to start a project? Reach out to us and let’s bring your vision to life!"</p>
+          <div className="form-card-group justify-center flex">
+            <InquireForm />
+          </div>
         </div>
       </section>
       {/* <p>ez</p><br /><br /><br /><br /><br /><br /><br /> */}
