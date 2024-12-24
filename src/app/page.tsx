@@ -6,6 +6,7 @@ import HomePagePicture from "./images/omerworks-homepage-png.png";
 import FAQ from "./components/faq/page";
 import InquireForm from "./components/inquire-form/page";
 import '@fortawesome/fontawesome-free/css/all.min.css'
+import CustomerReviews from "./components/reviews/page";
 
 export default function Home() {
   return (
@@ -62,9 +63,9 @@ export default function Home() {
           <p className="e text-center text-white text-lg opacity-70">"Discover what our customers have to say about their experiences"</p>
           
           <div className="reviews-card-group flex justify-center">
-            <div className="review-card rounded-[40px] opacity-30 mt-[30px] w-[1310px] h-[350px] bg-[#212121]">
-              
-            </div>
+            {/* <div className="review-card rounded-[40px] opacity-30 mt-[30px] w-[1310px] h-[350px] bg-[#212121]"> */}
+            <CustomerReviews/>
+            {/* </div> */}
           </div>
 
         </div>

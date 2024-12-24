@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { useState, useEffect } from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 // import { FaArrowUp } from 'react-icons/fa';

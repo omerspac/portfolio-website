@@ -223,6 +223,29 @@ html {
   margin-top: 30px;
   opacity: 30%;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  /* background: red !important; */
+  color: white !important;
+  width: 100px !important;
+  font-weight: lighter !important;
+  /* width: 100px !important; */
+}
+
+.swiper-pagination-bullet {
+  background: white !important;
+}
+
+.swiper-slide {
+  height: 300px !important;
+  /* opacity: 30%; */
+}
+
+/* .swiper-pagination-bullet-active {
+  
+} */
+
 /* END */
 
 /* BLOG SECTION */
@@ -271,5 +294,7 @@ html {
   padding: 110px 75px; /* For Adjusting */
   box-sizing: border-box;
 }
+
+
 /* END */
 /* END */
