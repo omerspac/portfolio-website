@@ -226,11 +226,9 @@ html {
 
 .swiper-button-next,
 .swiper-button-prev {
-  /* background: red !important; */
   color: white !important;
   width: 100px !important;
   font-weight: lighter !important;
-  /* width: 100px !important; */
 }
 
 .swiper-pagination-bullet {
@@ -241,6 +239,17 @@ html {
   height: 300px !important;
   /* opacity: 30%; */
 }
+
+.swiper-slide-transition {
+  transition: background-color 0.1s ease-in-out !important;
+}
+
+.mySwiper:hover .swiper-slide-transition:hover {
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+  /* border-width: 1px; */
+}
+
 
 /* .swiper-pagination-bullet-active {
   
