@@ -61,7 +61,7 @@ export default function Footer() {
             <p className={css['legal-logo']}>
               <Logo className={css['logo-svg']} />
             </p>
-            <p className={css['legal-copyright']}>Copyright &copy; 2024, Omerworks Inc.</p>
+            <p className={css['legal-copyright']}>Copyright &copy; 2024, OmerWorks Inc.</p>
             <Link href="#">Legal Stuff</Link> ㅤ| ㅤ
             <Link href="#">Privacy Policy</Link> ㅤ| ㅤ
             <Link href="#">Security</Link> ㅤ| ㅤ
