@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export default function MainBannerText() {
   const [text, setText] = useState("");
-  const words = ["NextJS Developer", "3D Artist", "Graphics Designer"];
+  const words = ["Web Developer", "3D Artist", "Graphics Designer"];
   
   let wordIndex = 0;
   let charIndex = 0;

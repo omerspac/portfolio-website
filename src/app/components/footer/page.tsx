@@ -23,7 +23,6 @@ export default function Footer() {
             <li><Link href="#services-section">2D Graphics</Link></li>
             <li><Link href="#services-section">3D Graphics</Link></li>
             <li><Link href="#services-section">Web Development</Link></li>
-            <li><Link href="#services-section">AI Chatbot</Link></li>
           </ul>
         </div>
         <div className={css['footer-column']}>
@@ -37,7 +36,7 @@ export default function Footer() {
         <div className={css['footer-column']}>
           <h3>Support</h3>
           <ul>
-            <li><Link href="#">Contact</Link></li>
+            <li><Link href="https://mail.google.com/mail/?view=cm&fs=1&to=omerspac@gmail.com" target="_blank">Contact</Link></li>
             <li><Link href="#">Privacy Policy</Link></li>
             <li><Link href="#">Terms & Usage</Link></li>
           </ul>

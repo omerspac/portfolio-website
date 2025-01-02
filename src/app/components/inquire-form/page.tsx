@@ -1,7 +1,10 @@
 export default function InquireForm() {
   return (
+    <>
+    <div className="flex gap-[110px]">
+    {/* <p className="services-text">Support Email:</p> */}
     <div className="form-card rounded-[40px] flex flex-col justify-center w-[800px] h-[750px] bg-[#212121] opacity-90 mt-[30px] p-6 text-white">
-      {/* <h2 className="text-2xl font-bold mb-4 text-center">Inquiry Form</h2> */}
+      <h2 className="text-2xl font-bold mb-4 text-center underline">Inquiry Form</h2>
       <form className="space-y-4">
         {/* Name */}
         <div>
@@ -118,5 +121,7 @@ export default function InquireForm() {
         </div>
       </form>
     </div>
+    </div>
+    </>
   );
 }
